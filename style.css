@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: sans-serif;
+}
+
+.pagina_inicial {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('./img/background.jpg');
+  background-size: cover;
+  background-color: rgba(34, 33, 33, 0.842);
+  background-blend-mode: multiply;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info_container {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 200;
+  line-height: 70px;
+}
+
+span {
+  font-weight: 600;
+  opacity: 1;
+}
+
+h2 {
+  font-size: 1.3rem;
+  opacity: 0.6;
+  margin: 0.55rem 0 2rem 0;
+  padding-left: 10px;
+}
+
+#sobre_btn {
+  font-size: 1.5rem;
+  padding: 0.5rem 6rem;
+  background-color: black;
+  text-decoration: none;
+  border: 1px solid #9d82529d;
+  border-radius: 10px;
+  color: rgb(150, 150, 150);
+  transition: all 0.5s;
+  text-transform: uppercase;
+}
+
+#sobre_btn:hover {
+  color: #9a7b45;
+  letter-spacing: 5px;
+  border: 1px solid rgb(193, 135, 34);
+  cursor: pointer;
+}
+
+/* links container ----------------------------- */
+
+.links_container {
+  margin-top: 2rem;
+  padding-left: 10px;
+  display: flex;
+  column-gap: 20px;
+}
+
+#linkedin_icon {
+  opacity: 0.3;
+  transition: all 0.5s;
+}
+
+#github_icon {
+  opacity: 0.5;
+  transition: all 0.5s;
+}
+
+#github_icon:hover {
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+#linkedin_icon:hover {
+  opacity: 0.6;
+  transform: scale(1.2);
+}
+
+/* ! Página 2 ------------------------------- */
+.card {
+  width: 60vw;
+  height: 60vh;
+  border: 1px solid rgb(172, 152, 102);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.725);
+  min-width: 800px;
+  position: relative;
+}
+
+.card img {
+  width: 250px;
+  /* padding-bottom: 8rem; */
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.859);
+  border: 1px solid rgba(171, 150, 72, 0.348);
+}
+
+/* --------------------------------- */
+h4 {
+  font-size: 1.2rem;
+}
+
+.card span {
+  opacity: 0.8;
+  color: goldenrod;
+}
+
+ul {
+  margin-top: 1.3rem;
+}
+
+h5 {
+  font-size: 1.1rem;
+}
+
+li {
+  opacity: 0.7;
+}
+
+.card a {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  text-decoration: none;
+  opacity: 0.2;
+  transition: all 0.6s;
+}
+
+.card a:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
